@@ -57,7 +57,7 @@ public class UpdateController {
                         File file = new File(localDir + "/" + newFileName);
                         fileItem.write(file);
                         // 返回值
-                        res = "http://localhost:8092/BookManager/" + dirName + "/" + newFileName;
+                        res = "http://localhost:8080/BookManager/" + dirName + "/" + newFileName;
                     }
                 }
             }
