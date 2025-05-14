@@ -1679,7 +1679,7 @@
                 o = a("4360"),
                 i = a("5f87"),
                 c = r.a.create({
-                    baseURL: "http://localhost:8080/BookManager/",
+                    baseURL: "http://57.180.38.136:8080/BookManager/",
                     timeout: 5e3
                 });
             c.interceptors.request.use((function(t) {
