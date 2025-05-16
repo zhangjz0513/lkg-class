@@ -9,6 +9,6 @@ services:
   book_manager:
     image: book_manager:latest
     container_name: book_manager
-    build: ./BookManager2-master
+    build: ./tomcat
     ports:
       - "8080:8080"
