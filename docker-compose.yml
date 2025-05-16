@@ -1,0 +1,14 @@
+version: '3'
+services:
+  httpd:
+    image: httpd:latest
+    container_name: httpd
+    build: ./apache
+    ports:
+      - "80:80"
+  book_manager:
+    image: book_manager:latest
+    container_name: book_manager
+    build: ./BookManager2-master
+    ports:
+      - "8080:8080"
