@@ -28,7 +28,7 @@
                         staticClass: "title-container"
                     }, [n("h3", {
                         staticClass: "title"
-                    }, [e._v("凌志大厦图书管理系统-注册界面")])]), n("el-form-item", {
+                    }, [e._v("LKG大厦图书管理系统-注册界面")])]), n("el-form-item", {
                         attrs: {
                             prop: "username"
                         }
